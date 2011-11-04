@@ -1,3 +1,9 @@
+# revision 22242
+# category Package
+# catalog-ctan /macros/latex/contrib/mychemistry
+# catalog-date 2011-04-28 13:09:24 +0200
+# catalog-license lppl1.3
+# catalog-version 1.5.1
 Name:		texlive-mychemistry
 Version:	1.5.1
 Release:	1
@@ -45,6 +51,7 @@ chemexec.
 %doc %{_texmfdistdir}/doc/latex/mychemistry/mychemistry_de.tex
 %doc %{_texmfdistdir}/doc/latex/mychemistry/mychemistry_en.pdf
 %doc %{_texmfdistdir}/doc/latex/mychemistry/mychemistry_en.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ chemexec.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
