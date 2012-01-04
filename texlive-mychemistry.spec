@@ -6,7 +6,7 @@
 # catalog-version 1.5.1
 Name:		texlive-mychemistry
 Version:	1.5.1
-Release:	1
+Release:	2
 Summary:	Create reaction schemes with LaTeX and ChemFig
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mychemistry
