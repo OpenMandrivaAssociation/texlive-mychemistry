@@ -1,11 +1,11 @@
-# revision 27251
+# revision 27754
 # category Package
 # catalog-ctan /macros/latex/contrib/mychemistry
-# catalog-date 2012-07-30 11:22:32 +0200
+# catalog-date 2012-09-20 14:20:46 +0200
 # catalog-license lppl1.3
-# catalog-version 1.99
+# catalog-version 1.99a
 Name:		texlive-mychemistry
-Version:	1.99
+Version:	1.99a
 Release:	1
 Summary:	Create reaction schemes with LaTeX and ChemFig
 Group:		Publishing
