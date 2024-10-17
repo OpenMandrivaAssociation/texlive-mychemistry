@@ -9,7 +9,7 @@ Version:	1.99b
 Release:	12
 Summary:	Create reaction schemes with LaTeX and ChemFig
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mychemistry
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mychemistry
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mychemistry.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mychemistry.doc.tar.xz
